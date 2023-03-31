@@ -1,0 +1,27 @@
+.app__landingPage {
+    display: flex;
+    justify-content: center;
+}
+
+.app__landingPage-featured {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px 30px;
+}
+
+#square-image {
+    background-color: blue;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+#large-image {
+    background-color: red;
+    grid-row: 1;
+    grid-column: 2 / span 2;
+}
+
+.small-image {
+    background-color: yellow;
+}
