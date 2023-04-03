@@ -202,3 +202,27 @@ body {
     background-color: #000;
     margin-bottom: 71px;
 }
+
+.app__landingPage-banner_container {
+    display: flex;
+}
+
+.app__landingPage-bannner_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: var(--white);
+}
+
+.app_landingPage-banner_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__landingPage-banner_image img {
+    max-width: 568px;
+    max-height: 330px;
+    object-fit: cover;
+}
