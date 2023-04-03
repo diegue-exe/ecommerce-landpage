@@ -24,7 +24,6 @@ body {
 .app__landingPage {
     margin: auto;
     max-width: 1170px;
-    padding: 140px 0px;
 }
 
 .app__landingPage-header {
@@ -60,6 +59,9 @@ body {
     line-height: 48px;
 }
 
+.app__landingPage-featured {
+    margin-bottom: 140px;
+}
 
 .app__landingPage-featured_grid {
     display: grid;
@@ -193,4 +195,10 @@ body {
 
 .black-circle > * {
     color: var(--white);
+}
+
+.app__landingPage-banner {
+    padding: 56px 69px;
+    background-color: #000;
+    margin-bottom: 71px;
 }
