@@ -462,11 +462,12 @@ input[type="text"]{
         grid-auto-flow: column;
     }
     #square-image {
+        background: #000000 url('./assets/images/featured/ps5.png') no-repeat right bottom/contain;
         grid-column: 1;
         grid-row: 1;
         justify-content: end;
-        padding: 32px;
-        background-size: 70%;
+        padding: 24px;
+        background-size: 60%;
     }
     #large-image {
         justify-content: end;
@@ -476,10 +477,12 @@ input[type="text"]{
         padding: 24px;
     }
     #small-image-right {
+        background: #000000 url('./assets/images/featured/gucci.png') no-repeat right bottom/contain;
         background-size: 50%;
     }
     #small-image-left {
-        background-size: 45%;
+        background: #000000 url('./assets/images/featured/amazon-echo.png') no-repeat right bottom/contain;
+        background-size: 40%;
     }
 }
 
