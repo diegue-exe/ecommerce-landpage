@@ -9,13 +9,80 @@
     <script src="https://kit.fontawesome.com/86988eeeb2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="app__landingPage">
         <header>
-            <nav>
-
+            <nav class="app__landingPage-navbar">
+                <div class="app__landingPage-navbar_container">
+                    <h2>Exclusive</h2>
+                    <div class="app__landingPage-navbar_links">
+                        <a href="#" selected>Home</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                        <a href="#">Sign Up</a>
+                    </div>
+                    <div class="app__landingPage-navbar_end">
+                        <input type="text" placeholder="What are you looking for?">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
+            <div class="app__landingPage">
+            <section class="app__landingPage-categories">
+                <div class="app__landingPage-categories_container">
+                    <div class="category">
+                        <p>Woman's Fashion</p><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="category">
+                        <p>Men's Fashion</p><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="category">
+                        <p>Electronics</p>
+                    </div>
+                    <div class="category">
+                        <p>Home & Lifestyle</p>
+                    </div>
+                    <div class="category">
+                        <p>Medicine</p>
+                    </div>
+                    <div class="category">
+                        <p>Sports & Outdoor</p>
+                    </div>
+                    <div class="category">
+                        <p>Baby's & Toys</p>
+                    </div>
+                    <div class="category">
+                        <p>Groceries & Pets</p>
+                    </div>
+                    <div class="category">
+                        <p>Health & Beauty</p>
+                    </div>
+                </div>
+                <div class="app__landingPage-categories_carousel">
+                    <!-- Flex columna 2 columnas, una para foto y texto, otra para botones -->
+                    <div class="app__landingPage-categories_carousel_container">
+                        <!-- Flex row con 2 rows -->
+                        <div class="app__landingPage-categories_carousel_info">
+                            <!-- Flex columna 3 columnas -->
+                            <div class="img-text">
+                                <img src="./assets/images/navbar/apple.png" alt="Apple" width="50" height="50">
+                                <p>iPhone 14 Series</p>
+                            </div>
+                            <h3>Up to 10% off Voucher</h3>
+                            <div class="img-text">
+                                <a href="#">Shop now</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            
+                            <!-- Icono de font awesome en linea con show now, letra blanca y además, la linea esa fake debajo con border bottom -->
+                        </div>
+                    </div>
+                    <div class="app__landingPage-categories_carousel_controls">
+                        <!-- Flex con justify-content center -->
+                    </div>
+                </div>
+            </section>
             <section class="app__landingPage-banner">
                 <div class="app__landingPage-banner_container">
                     <div class="app__landingPage-bannner_info">
@@ -43,7 +110,6 @@
                     </div>
                     <div class="app__landingPage-banner_image">
                         <img src="./assets/images/banner/jbl.png">
-                        <div class="image-bg-light"></div>
                     </div>
                 </div>
             </section>
@@ -110,7 +176,7 @@
                     </div>
                 </article>
             </section>
+            </div>
         </main>
-    </div>
 </body>
 </html>
