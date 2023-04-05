@@ -65,6 +65,42 @@ html, body {
     line-height: 48px;
 }
 
+.user-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background: #DB4444;
+}
+
+.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: #f1f1f1;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-menu:hover .dropdown-content {display: block;}
+
+
+
 .app__landingPage-featured {
     margin-bottom: 140px;
 }
