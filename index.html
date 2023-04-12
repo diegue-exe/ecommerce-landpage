@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Ecommerce Landing Page - Maquetación CSS</title>
+    <script src="https://kit.fontawesome.com/86988eeeb2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="app__landingPage">
@@ -16,10 +17,67 @@
         </header>
         <main>
             <section class="app__landingPage-featured">
-                <div id="square-image">a</div>
-                <div id="large-image">b</div>
-                <div class="small-image">c</div>
-                <div class="small-image">d</div>
+                <div class="app__landingPage-header">
+                    <div class="app__landingPage-header_category">
+                        <div class="app__landingPage-header_redSquare"></div>
+                        <span>Featured</span>
+                    </div>
+                    <div class="app__landingPage-header_title">
+                        <h2>New Arrival</h2>
+                    </div>
+                </div>
+                <article class="app__landingPage-featured_grid">
+                    <div id="square-image">
+                        <h3>PlayStation 5</h3>
+                        <p>Black and White version of the PS5 <br> coming out on sale.</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                    <div id="large-image">
+                        <h3>Women's collection</h3>
+                        <p>Featured woman collections that <br> give you another vibe.</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                    <div id="small-image-left">
+                        <h3>Speakers</h3>
+                        <p>Amazon wireless speakers</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                    <div id="small-image-right">
+                        <h3>Women's collection</h3>
+                        <p>GUCCI INTENSE OUD EDP</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                </article>
+                <article class="app__landingPage-featured_circles">
+                    <!-- display: flex -->
+                    <div class="app__landingPage-featured_circles_container">
+                        <div class="grey-circle">
+                            <div class="black-circle">
+                                <i class="fa-solid fa-truck-fast fa-xl"></i>
+                            </div>
+                        </div>
+                        <h3>MONEY BACK GUARANTEE</h3>
+                        <p>Free delivery for all orders over $140</p>
+                    </div>
+                    <div class="app__landingPage-featured_circles_container">
+                        <div class="grey-circle">
+                            <div class="black-circle">
+                                <i class="fa-solid fa-headset fa-2xl"></i>
+                            </div>
+                        </div>
+                        <h3>24/7 CUSTOMER SERVICE</h3>
+                        <p>Friendly 24/7 customer support</p>
+                    </div>
+                    <div class="app__landingPage-featured_circles_container">
+                        <div class="grey-circle">
+                            <div class="black-circle">
+                                <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                            </div>
+                        </div>
+                        <h3>FREE AND FAST DELIVERY</h3>
+                        <p>We reurn money within 30 days</p>
+                    </div>
+                </article>
             </section>
         </main>
     </div>
