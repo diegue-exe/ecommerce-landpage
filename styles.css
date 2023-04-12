@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: var(--color-text-2);
+    font-weight: 400;
 }
 
 *, *::before, *::after {
@@ -24,7 +25,6 @@ body {
 .app__landingPage {
     margin: auto;
     max-width: 1170px;
-    padding: 140px 0px;
 }
 
 .app__landingPage-header {
@@ -60,6 +60,9 @@ body {
     line-height: 48px;
 }
 
+.app__landingPage-featured {
+    margin-bottom: 140px;
+}
 
 .app__landingPage-featured_grid {
     display: grid;
@@ -193,4 +196,109 @@ body {
 
 .black-circle > * {
     color: var(--white);
+}
+
+.app__landingPage-banner {
+    padding: 56px 69px;
+    background-color: #000;
+    margin-bottom: 71px;
+}
+
+.app__landingPage-banner_container {
+    display: flex;
+}
+
+.app__landingPage-bannner_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: var(--white);
+}
+
+.app__landingPage-bannner_info span {
+    color: #00FF66;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+.app__landingPage-bannner_info h2 {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 32px;
+}
+
+.app__landingPage-banner_circles_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.white-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.white-circle p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.white-circle span {
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0;
+    color: #000;
+}
+
+.btn-green {
+    background-color: #00FF66;
+    padding: 16px 48px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: none;
+}
+
+.app_landingPage-banner_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.app__landingPage-banner_image img {
+    position: relative;
+    max-width: 568px;
+    max-height: 330px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.image-bg-light {
+    position: absolute;
+    top: 5%;
+    width: 568px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    opacity: 0.3;
+    filter: blur(100px);
+    z-index: 0;
 }
